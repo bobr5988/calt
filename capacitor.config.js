@@ -1,6 +1,4 @@
-import { CapacitorConfig } from '@capacitor/cli';
-
-const config: CapacitorConfig = {
+module.exports = {
   appId: 'com.advancedcalc.app',
   appName: 'Калькулятор',
   webDir: 'www',
@@ -12,5 +10,3 @@ const config: CapacitorConfig = {
     backgroundColor: '#0a0a0f'
   }
 };
-
-export default config;
